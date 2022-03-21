@@ -25,7 +25,7 @@ fn main() {
 	mut counter := 0
 	mut failed := 0
 	term.clear()
-	print("${white}Probing ${ip} On Port ${port} With ${requests} Requests\nhttps://instagram.com/exo.phobian\n\n")
+	print("${white}Probing ${ip} On Port ${port} With ${requests} Requests\n\n")
 	for {
 		for color in colors {
 			counter += 1
